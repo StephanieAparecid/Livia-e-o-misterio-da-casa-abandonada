@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(64, 43, 83);
+    color:white;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+button{
+    background-color: rgb(200, 148, 250);
+    color:black;
+    font-family: "Lora", serif;
+
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+main {
+    max-width: 90%;
+    text-align: center;
+}
+img{
+    max-width: 50%;
+}
